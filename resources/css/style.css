@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 100; /* Thin font weight */
+    text-rendering: optimizeLegibility;
 }
 .nav-bar{
     position: absolute;
@@ -72,6 +73,8 @@ header .btn .btn-1 {
     text-decoration: none;
     border-radius: 50px;
     transition: all 1s ease;
+    font-weight: 400;
+    font-size: 15px;
 }
 header .btn .btn-1:hover{
     background-color: transparent;
